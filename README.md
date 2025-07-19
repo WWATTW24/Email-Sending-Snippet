@@ -1,5 +1,3 @@
-A very rudimentary script to send HTMl formatted emails. A (limited) precursor to Postman With a Broken Leg. 
-
 ## Usage:
 1. Set up the Gmail-API, as per the [Python Quickstart](https://developers.google.com/workspace/gmail/api/quickstart/python).
 2. Download the above file and replace the contents of  `quickstart.py` with the above code.
