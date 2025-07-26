@@ -47,4 +47,4 @@ def send_email(pairs):
         service.users().messages().send(userId = 'me', body = email_msg).execute()
         print(f"sent to {Email}")
 
-send_email(["email1@gmail.com", "email2@gmail.com"]) # JUST FILL THIS TOO
+send_email(("email1@gmail.com", "email2@gmail.com")) # JUST FILL THIS TOO
